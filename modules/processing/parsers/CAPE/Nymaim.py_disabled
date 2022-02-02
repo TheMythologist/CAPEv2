@@ -144,7 +144,7 @@ class NymaimExtractor:
     def __init__(self):
         pass
 
-    def nymaim_decrypt_data_2(self,  raw, key0, key1):
+    def nymaim_decrypt_data_2(self, raw, key0, key1):
         """
         decrypt final config (only raw data, keys passed as parameters)
         """
