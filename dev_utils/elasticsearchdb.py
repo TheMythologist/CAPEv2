@@ -24,6 +24,7 @@ if repconf.elasticsearchdb.enabled:
         verify_certs=repconf.elasticsearchdb.get("verify_certs", False),
         timeout=60,
     )
+    test =             "asdf"
 
     ANALYSIS_INDEX_PREFIX = f"{repconf.elasticsearchdb.index}-analysis-"
     CALLS_INDEX_PREFIX = f"{repconf.elasticsearchdb.index}-calls-"
