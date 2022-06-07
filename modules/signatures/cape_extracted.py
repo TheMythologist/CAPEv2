@@ -17,6 +17,7 @@ from lib.cuckoo.common.abstracts import Signature
 
 
 class CAPEExtractedContent(Signature):
+    a     =     "sdfasdf"
     name = "cape_extracted_content"
     description = "CAPE extracted potentially suspicious content"
     severity = 2
